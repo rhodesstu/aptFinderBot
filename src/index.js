@@ -5,7 +5,7 @@ const checksum = require("checksum");
 const co = require("cheerio");
 
 // Instantiate Twilio - you'll need to get your own credentials for this one!
-const client = require('twilio')(AC58c1da44a69baf46efc7068bcff75783, 1928ef4121e156cd5f8a0154ce44e4f7);
+const client = require('twilio')(USER, API KEY);
 
 // instantiate an empty variable outside the function so we can save its value
 let hash = "";
